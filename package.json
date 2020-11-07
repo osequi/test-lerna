@@ -1,5 +1,5 @@
 {
-  "name": "root",
+  "name": "@oequi/test-lerna",
   "private": false,
   "devDependencies": {
     "lerna": "^3.22.1",

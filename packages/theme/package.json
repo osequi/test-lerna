@@ -1,5 +1,5 @@
 {
-  "name": "theme",
+  "name": "@osequi/test-lerna/theme",
   "version": "1.0.1",
   "description": "A theme",
   "author": "osequi <cs@osequi.com>",
@@ -23,5 +23,6 @@
   },
   "bugs": {
     "url": "https://github.com/osequi/test-lerna/issues"
-  }
+  },
+  "gitHead": "d6e772ef14b52735d3b0ac29b6a655fae2f2d1e0"
 }
