@@ -11,5 +11,11 @@
     "sourceMap": true,
     "lib": ["es6"]
   },
-  "exclude": ["node_modules", "**/*.spec.ts"]
+  "exclude": ["node_modules", "**/*.spec.ts"],
+  "typedocOptions": {
+    "mode": "modules",
+    "out": "docs",
+    "includeDeclarations": true,
+    "excludeExternals": true
+  }
 }
