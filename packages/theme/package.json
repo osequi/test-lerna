@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/osequi/test-lerna/issues"
   },
-  "gitHead": "542b9db10c214e924053ab440abf8732011259d2"
+  "gitHead": "542b9db10c214e924053ab440abf8732011259d2",
+  "dependencies": {
+    "@osequi/test-lerna-typography": "^1.0.1"
+  }
 }

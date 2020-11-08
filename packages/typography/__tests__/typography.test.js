@@ -1,7 +1,9 @@
-'use strict';
+"use strict";
 
-const typography = require('..');
+const typography = require("..");
 
-describe('typography', () => {
-    it('needs tests');
+describe("typography", () => {
+  it("works", () => {
+    expect(typography).not.toBeNull();
+  });
 });
