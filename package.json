@@ -2,11 +2,16 @@
   "name": "@oequi/test-lerna",
   "private": false,
   "devDependencies": {
+    "@types/jest": "^26.0.15",
+    "jest": "^26.6.3",
     "lerna": "^3.22.1",
+    "ts-jest": "^26.4.3",
     "typescript": "^4.0.5"
   },
   "scripts": {
-    "pub": "lerna run tsc && lerna publish"
+    "pub": "lerna run tsc && lerna publish",
+    "test": "yarn jest --watchAll"
   },
-  "version": "1.0.1"
+  "version": "1.0.1",
+  "dependencies": {}
 }
